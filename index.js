@@ -63,6 +63,23 @@ app.get('/api/get-data',async function(req,res){
     
 })
 
+/*
+After making all the changes-:
+After doing npm start,
+We need postman to save the required data to database,
+Got postman:-
+1) select the + button
+2) select post request
+3) enter the url-: http://localhost:5690/api/post-data
+4) select raw then json 
+5) enter the below sample in json text box-:
+{
+"name":"value",
+"Key":"value"
+}
+
+6) press the send button 
+*/
 
 
 app.listen(port,function(){
